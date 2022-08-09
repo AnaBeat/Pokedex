@@ -5,9 +5,11 @@
     --branco: #ffffff; 
     --cinza: #aaaaaa;
     --cinza-escuro: #3a444d;
-    --preto: #333333;
+    --cinza-mais-escuro: #333333;
     --cinza-claro: #888888;
-
+    --preto: #000000;
+    --cinza-escuro-2: #444444;
+    --cinza-2: #222222;
 }
 
 *{
@@ -65,13 +67,40 @@ main {
 }
 
 .input__search {
-    border: 2px solid var(--preto);
+    border: 2px solid var(--cinza-mais-escuro);
     border-radius: 5px;
-    box-shadow: -3px 4px 0 var(--cinza-claro), -5px 7px 0 var(--preto);
+    box-shadow: -3px 4px 0 var(--cinza-claro), -5px 7px 0 var(--cinza-mais-escuro);
     color: var(--cinza-escuro);
     font-size: clamp(8px, 5vh, 1rem);
     font-weight: 600;
     outline: none;
     padding: 4%;
     width: 100%;
+}
+
+.buttons{
+    bottom: 10%;
+    display: flex;
+    gap: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-57%, 0);
+    width: 65%;
+}
+
+.button {
+    width: 50%;
+    padding: 4%;
+    border: 2px solid var(--preto);
+    border-radius: 5px;
+    font-size: clamp(8px 5vh 1rem);
+    font-weight: 600;
+    color: var(--branco);
+    background-color: var(--cinza-escuro-2);
+    box-shadow: -2px 3px 0 var(--cinza-2), -4px 6px var(--preto);
+}
+
+.button:active {
+    box-shadow: inset -4px 4px 0 var(--cinza-2);
+    font-size: 0.9rem;
 }
