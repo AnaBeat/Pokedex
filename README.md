@@ -4,14 +4,10 @@
 Permite a visualização e busca de pokémons
 
 ### Características
-View basic details of each Pokémon
-Filter Pokémon based on Region and Type
-Sort Pokémon by ID/Name
-Search Pokémon by its Name/ID
-Dark mode toggle
-Scroll to top
-Lazy loading of images
-Responsive design
+- Classificar Pokémon por ID/Nome
+- Pesquise Pokémon por seu Nome/ID
+- Carregamento lento de imagens
+- Design responsivo
 
 ### Screenshots 
 ![App Screenshot](https://i.ibb.co/Lr11g6X/imagem-2022-08-09-202702757.png)
